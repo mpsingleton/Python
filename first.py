@@ -1,7 +1,10 @@
-books = ['The Gunslinger', 'The Mist', 'Patriot Games']
+my_list = [i ** 2 for i in range(1, 11)]
 
-for novel in books:
-	print (novel)
+my_file = open("output.txt", "w")
 
+# Add your code below!
+for i in my_list:
+  my_file.write(str(i) + "\n")
 
-#checking git commit status
+my_file.close()
+#checking whether git has saved my login data
